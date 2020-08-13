@@ -94,7 +94,7 @@ if(isset($_FILES['image'])){
     }
   </style>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css">
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script>
