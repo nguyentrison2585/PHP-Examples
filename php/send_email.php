@@ -10,7 +10,7 @@ use PHPMailer\PHPMailer\Exception;
 
 if (isset($_POST['email'])) {
   $mail = new PHPMailer(true);
-  $email = $_POST['email'];
+  $destination_email = $_POST['email'];
   try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
@@ -23,8 +23,8 @@ if (isset($_POST['email'])) {
     $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
     //Recipients
-    $mail->setFrom('nguyentrison.hust@gmail.com', 'Tri Son Nguyen');
-    $mail->addAddress($email);     // Add a recipient
+    $mail->setFrom(EMAIL_NAME, 'Tri Son Nguyen');
+    $mail->addAddress($destination_email);     // Add a recipient
     // $mail->addAddress('ellen@example.com');               // Name is optional
     // $mail->addReplyTo('info@example.com', 'Information');
     // $mail->addCC('cc@example.com');

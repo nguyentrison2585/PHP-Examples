@@ -1,0 +1,104 @@
+body {
+  background-color: #f1f1f1;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* login */
+.bg-img {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login-wrap {
+  border-radius: 10px;
+}
+
+.login-wrap .content-top-agile {
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.login-wrap .content-top-agile p {
+  font-size: .9rem;
+  color: #999;
+}
+
+#strengthMessage {
+    width: 100%;
+    margin-top: 2px;
+    height: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.short {
+    background-color: #dc3545;
+    color: #dc3545;
+}
+
+.weak {
+    background-color: #ffc107;
+    color: #ffc107;
+}
+
+.good {
+    background-color: #28a745;
+    color: #28a745;
+}
+
+.strong {
+    background-color: #d39e00;
+    color: #d39e00;
+}
+
+.confirm-message {
+  text-align: left;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.errors-list {
+  font-size: 14px;
+}
+
+.btn-social-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
+/* reset password */
+.resetpass-wrap {
+  max-width: 540px;
+  padding-top: 8vh;
+  padding-bottom: 6vh;
+  margin: 0 auto;
+}
+
+.resetpass-content {
+  background: #fff;
+  padding: 30px 30px 20px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+
+}
+
+.resetpass-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.resetpass-form .form-group label {
+  text-align: left;
+  font-size: 1rem;
+  display: block;
+}
